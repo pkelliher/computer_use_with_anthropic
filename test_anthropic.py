@@ -4,16 +4,15 @@ import os
 
 load_dotenv()
 
-# Initialize client
 client = Anthropic()
 
-# Test message
 message = client.messages.create(
     model="claude-sonnet-4-20250514",
-    max_tokens=100,
+    max_tokens=500,
     messages=[
-        {"role": "user", "content": "Hello, Claude!"}
+        {"role": "user", "content": "Provide a brief definition of the top 5 prompting techniques"}
     ]
 )
 
+print(message)
 print(message.content[0].text)
