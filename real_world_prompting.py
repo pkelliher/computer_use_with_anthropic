@@ -115,5 +115,33 @@ It's a little expensive, but so worth it imo.
 If you can afford it, it's worth it! 
 I love the colors too!
 """
+review2 = """
+I recently bought the ABC Smartwatch, and I have to say, it's been a 
+bit of a rollercoaster. Let's start with the good stuff - 
+the design is absolutely gorgeous. It's sleek, lightweight, 
+and looks fantastic on my wrist. The display is crisp and bright, 
+even in direct sunlight. I also love how customizable the watch 
+faces are, allowing me to switch up the look whenever I want.
+However, there are some significant downsides that I can't ignore. 
+The battery life is terrible - I'm lucky if I get through a full 
+day without needing to charge it. This is especially frustrating
+when I'm traveling or out for long periods. The fitness tracking 
+features, which were a big selling point for me, are hit or miss. 
+It often doesn't accurately count my steps or calculate calories burned 
+during workouts. Another issue I've encountered is with the touch 
+sensitivity. Sometimes it's overly sensitive, registering accidental 
+touches, while other times I have to tap multiple times for it to 
+respond. It's inconsistent and annoying, especially when I'm trying to 
+quickly check notifications or start a workout.On the plus side, the 
+integration with my smartphone is seamless, and I appreciate being able 
+to respond to texts and calls from my wrist. The water resistance has 
+also held up well - I've worn it while swimming without any problems.
+Customer service has been decent. They were quick to respond when I 
+reported the battery issue, but their solution of turning off certain 
+features defeats the purpose of having a smartwatch. All in all, while 
+there are aspects of the ABC Smartwatch that I really like, the battery 
+life and inconsistent performance are major drawbacks. For the price 
+point, I expected better. It's not worth your money.
+"""
 
-get_review_sentiment(review1)
+get_review_sentiment(review2)
